@@ -1,0 +1,21 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="WhatsApp.7b5332db-308e-4ab2-9701-494760aa93b8" Version="1.0" Language="en-US" Publisher="Himanshu Kumar Sharma HKS" />
+    <DisplayName>WhatsApp</DisplayName>
+    <Description xml:space="preserve">WhatsWeb for Visual Studio is an innovative extension that brings WhatsApp Web directly into the Visual Studio IDE</Description>
+    <MoreInfo>https://github.com/incredible-India/WhatsApp-Extension-VS</MoreInfo>
+    <Icon>Resources\Icon.png</Icon>
+    <PreviewImage>Resources\Icon.png</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="WhatsApp.pkgdef" />
+  </Assets>
+</PackageManifest>
